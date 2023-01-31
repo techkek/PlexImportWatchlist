@@ -7,7 +7,7 @@
 
     pip install plexapi
 
-2. Edit `user` and `password` with your Plex user and your Plex password.
+2. Edit `user` and `token` with your Plex user and your [Plex token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/).
 
 3. Edit the url so that you have a working API that returns a list of movies that have `title` and `release_year` as parameters, among others. If they have them but with a different name, edit them.
 If you edit `<your_user>` with your Letterboxd user, it will automatically provide a list taken from your Letterboxd watchlist.
