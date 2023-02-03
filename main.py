@@ -1,7 +1,10 @@
 import urllib, json
 
 from plexapi.myplex import MyPlexAccount
-account = MyPlexAccount('user', 'password')
+token = 'your-token' # find your plex token https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/
+username = 'your-username'
+
+account = MyPlexAccount(username, None, token)
 
 open("errors.txt", "w")
 
