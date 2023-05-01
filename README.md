@@ -5,8 +5,7 @@
 
 1. Download the `main.py` file in the repository and install, in the same directory, [PlexAPI](https://github.com/pkkid/python-plexapi/) and tqdm.
 
-    pip install plexapi
-    pip install tqdm
+    pip install plexapi tqdm
 
 2. Edit `user` and `token` with your Plex user and your [Plex token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/).
 
